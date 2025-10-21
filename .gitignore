@@ -1,0 +1,47 @@
+# Database backup files
+backups/
+*.sql.backup
+*.dump
+*.backup
+
+# PostgreSQL specific
+*.log
+*.pid
+*.lock
+pg_log/
+pg_stat_tmp/
+
+# Sensitive configuration
+.env
+.env.local
+config/*.secret
+database.ini
+connection_strings.txt
+
+# OS specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor specific
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# Test databases
+*_test.sql
+test_*.sql
+
+# Local development
+local/
+sandbox/
